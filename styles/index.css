@@ -209,6 +209,7 @@ main{
 .post-text > p {
 line-height: 25px;
 letter-spacing: 3px;
+text-align: center;
 }
 
 .post-date , .post-number{
