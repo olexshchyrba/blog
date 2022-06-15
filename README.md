@@ -1,1 +1,1 @@
-# bloX - it's my blog about IT.
+# BloX - it's my blog about IT.
