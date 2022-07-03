@@ -113,7 +113,6 @@ main{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: calc(100vh - 70px);
     margin-bottom: 35px;
 }
 
@@ -127,8 +126,6 @@ main{
 }
 
 .main-image{
-    
-    height: 100%;
     width: 100%;
 
     display: flex;
@@ -137,7 +134,7 @@ main{
 }
 
 .main-image > img {
-    height: 100%;
+    width: 100%;
 }
 /* possts */
 
