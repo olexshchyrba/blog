@@ -30,6 +30,7 @@ header , footer{
     background-color: var(--mainColor);
 }
 
+
 main{
     width: 100%;
     max-width: 1300px;
@@ -49,15 +50,20 @@ main{
     position: relative;
     font-size: 60px;
     font-weight: 600;
+	color:#372e50;
+	text-shadow: 1px 2px #ffffff;
 }
 
+.logo_letter_B {
+    font-size: 94px;
+}
 .index_logo {
     position: absolute;
     top: 22px;
     right: -39%;
     font-weight: 700;
     font-size: 20px;
-    color: var(--mainColor);
+    color: #4899F0;
 }
 
 .nav-btns{
@@ -240,4 +246,63 @@ text-align: center;
 .post-date > p {
     color:rgba(0, 0, 0, 0.25) ;
     
+}
+
+#nav-about-mobile {
+    display: none;
+}
+
+@media only screen
+and (min-width: 320px)
+and (max-width: 568px)  {
+
+.logo {
+    font-size: 48px;
+}
+
+.logo_letter_B {
+    font-size: 81px;
+}
+
+.index_logo {
+    position: absolute;
+    top: 22px;
+    right: -50%; 
+    font-size: 18px;
+}
+
+.nav-btns {
+    display: block;
+    padding-top: 6%;
+}
+
+.nav-btn > p {
+    font-size: 22px;
+}
+
+.nav-container {
+    padding: 0;
+}
+
+#nav-about {
+    display: none;
+}
+
+#nav-about-mobile {
+    display: block;
+    text-align: center;
+    margin-bottom: 2%;
+
+}
+
+#nav-about-mobile a {
+    text-decoration: none;
+    color: #372e50;
+}
+
+#nav-about-mobile a:hover{
+    color: black;
+}
+
+
 }
