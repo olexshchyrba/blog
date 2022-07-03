@@ -1,14 +1,12 @@
 body {
+
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     line-height: 1.5;
 
     margin: 0;
-
-    background-color: white; 
-    color: black;
 }
-
+/* 
 img {
     width: 90%;
     padding-left: 20%;
@@ -21,4 +19,4 @@ img {
     background-color: #fff;
     box-shadow: 0 5px 10px #ccc;
 
-}
+} */
